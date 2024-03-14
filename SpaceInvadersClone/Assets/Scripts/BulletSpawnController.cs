@@ -15,6 +15,10 @@ public class BulletSpawnController : MonoBehaviour
 
     private void ShootBullet()
     {
-        GameObject g = Instantiate(bullet, transform.position, Quaternion.identity);
+        if(bullet != null)
+        {
+            GameObject g = Instantiate(bullet, transform.position, Quaternion.identity);
+        }
+            
     }
 }

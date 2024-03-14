@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2098978831555940019}
   - component: {fileID: 2098978831555940018}
   - component: {fileID: 5741673890613550108}
+  - component: {fileID: -4066770154123777333}
   m_Layer: 0
   m_Name: BulletMonster1
   m_TagString: Untagged
@@ -145,3 +146,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: {x: 0, y: -4}
+--- !u!114 &-4066770154123777333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098978831555940023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77e947165bdc2864d9c0a4dd12a70beb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
